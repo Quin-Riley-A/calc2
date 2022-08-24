@@ -31,7 +31,7 @@ function handleCalculation(event) {
   } else if (operator === "divide") {
     result = divide(number1, number2)
   }
-  document.getElementByID("output").innerText = "Your answer is: " + result;
+  document.getElementById("output").innerText = "Your answer is: " + result;
 }
 
 window.addEventListener("load", function() {
